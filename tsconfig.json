@@ -1,0 +1,22 @@
+{
+  "ts-node": {
+    "transpileOnly": true,
+    "files": true,
+    "compilerOptions": {
+      "rootDir": "."
+    }
+  },
+  "compilerOptions": {
+    "module": "commonjs",
+    "types": ["node", "jest"],
+    "target": "es5",
+    "rootDir": ".",
+    "baseUrl": ".",
+    "sourceMap": true,
+    "allowSyntheticDefaultImports": true,
+  },
+  "exclude": [
+    "node_modules"
+  ],
+  "include": ["src", "tests"]
+}
